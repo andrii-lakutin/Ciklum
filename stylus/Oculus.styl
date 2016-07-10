@@ -1,0 +1,61 @@
+section.oculus
+	width 100% 
+	font-family "Open Sans", "open-sans", sans-serif
+	max-width 1750px
+	margin 0 auto  
+	ul
+		height 300px 
+		li
+			position relative
+			float left
+			width 33.333333333%
+			height 100%
+			transition all .3s
+			overflow hidden 
+			cursor pointer
+			&:hover > .bg
+				height 110%
+			&:hover > .shadow
+				background rgba(40,40,40,.2)
+			.shadow
+				position absolute
+				background rgba(40,40,40,.7)
+				width 100%
+				height 100%
+				transition background .3s 
+				z-index 2 				
+			.bg
+				position absolute
+				width 100%
+				height 100% 
+				background-size cover !important
+				background-repeat no-repeat !important
+				background-position center center !important
+				transition height .3s
+				z-index 1
+			.valkyrie 
+				background url(img/eve-valkyrie.jpg) 
+			.lucky 
+				background url(img/luckys-tale.jpg)
+			.touch 
+				background url(img/touch.jpg) 
+			.oculus-wrap
+				position absolute
+				top 50%
+				width 90%  
+				transform translateY(-50%)
+				padding 0px 5%
+				z-index 3   
+				h4
+					font-size 12px
+					line-height 16px  
+					color #a4a5a6
+					text-align center
+					font-weight 600
+					letter-spacing 2px
+				h3
+					font-size 22px
+					line-height 28px
+					text-align center
+					font-weight 600   
+					color white   

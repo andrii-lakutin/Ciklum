@@ -1,0 +1,200 @@
+nav
+	height 48px
+	width 100%  
+	font-family "Segoe UI", Arial, sans-serif
+	color #2F2F2F
+	max-width 1750px 
+	background white
+	margin 0 auto
+	@media screen and (max-width: 380px)
+		height 96px 	 
+	.nav-wrapper
+		width 90%
+		margin 0 auto
+		height 100%
+		position relative  
+		> img
+			float left
+			width 108px
+			height 23px  
+			margin-top 13px 
+			@media screen and (max-width: 380px)
+				position absolute
+				left 50%
+				margin-left -54px 
+		> ul
+			margin 0 0 0 18px
+			float left
+			@media screen and (max-width: 700px)
+				position absolute
+				height 0px
+				top 52px
+				right 40px 
+				z-index 1
+			@media screen and (max-width: 380px)
+				top 96px
+				right 100px	
+			> li
+				height 100%
+				float left
+				cursor pointer
+				position relative
+				@media screen and (max-width: 700px)
+					float none
+					display none
+					background #F2F2F2
+				&:hover
+					background #F2F2F2   
+				a
+					display block
+					height 100% 
+					padding: 0 1.5em
+					line-height 48px 
+					color #2F2F2F
+					> img
+						height 3px
+						width 7px
+						float none 
+						margin-left 5px
+				.store-dropdown
+					position absolute
+					z-index 1
+					@media screen and (max-width: 700px)
+						left -117px
+					@media screen and (max-width: 380px)
+						left 0px
+					ul
+						li
+							height 0px
+							width 238px 
+							background #F2F2F2
+							transition height 300ms
+							a
+								padding 3px 18px
+								display none 
+							img
+								display none
+								margin-top 20px 
+								float right
+								width 11px
+								height 11px 
+				.products-dropdown
+					position absolute
+					z-index 1
+					@media screen and (max-width: 700px)
+						left -117px
+					@media screen and (max-width: 380px)
+						left 0px
+					ul
+						li
+							height 0px
+							width 238px
+							background #F2F2F2
+							transition height 300ms
+							a
+								display none
+								padding 3px 18px
+							img
+								display none
+								margin-top 20px
+								float right
+								width 11px
+								height 11px   
+		.right-side
+			float right	
+			@media screen and (max-width: 380px)
+				position absolute
+				left 50%
+				margin-left -85px 
+				top 48px
+				 					 
+			div
+				float left
+				line-height 48px
+				img
+					width 22px
+					height 21px
+			.search
+				height 33px 
+				margin-top 7px 
+				border 1px solid #A9A9A9
+				margin-right 10px 
+				@media screen and (max-width: 965px)
+					border 0
+				@media screen and (max-width: 380px)
+					margin-right 0px
+				input
+					font-family inherit
+					float left
+					display block 
+					width 244px
+					height 100% 
+					padding 0 10px
+					border 0 
+					font-size 15px
+					
+					@media screen and (max-width: 965px)
+						display none
+						position absolute
+						top 55px
+						width 100% 
+						left 0 
+						z-index 2  
+						border 1px solid #A9A9A9
+					
+					&:focus
+						outline none
+					&::-webkit-input-placeholder
+						color black
+					&::-moz-placeholder
+						color black	
+					&::-webkit-search-cancel-button    //убираем крестик очистки с input type="search" 
+						display none		  
+				img  
+					cursor pointer
+					float left
+					padding 7px 
+					margin-top 0  
+					border-left 0 
+			.cart
+				cursor pointer
+				line-height 1px 
+				img
+					padding-top 12px 
+					width 22px
+					height 22px
+					margin-left 15px 
+					@media screen and (max-width: 380px)
+						margin-left 0px  
+				span 
+					display block
+					float right
+					margin-top 24px 
+					font-size 12px
+					color #505050 
+					margin-right 10px
+			.menu-adaptive 
+				float left
+				cursor pointer
+				padding 4px 20px 0px 20px
+				display none
+				@media screen and (max-width: 700px)
+					display block
+				@media screen and (max-width: 380px)
+					padding 4px 10px 0px 10px	
+			.login
+				padding 0 10px
+				cursor pointer 
+				font-size 75%
+				color #505050
+				&:hover
+					background #F2F2F2
+					color #0078d7
+	
+.h50
+	height 50px !important
+.db
+	display block !important
+.bg-gray
+	background #F2F2F2 !important
+						 
