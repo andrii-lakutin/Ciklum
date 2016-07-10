@@ -548,6 +548,11 @@ section.invision .invision-content div input {
   font-size: 18px;
   color: #8a959e;
 }
+@media screen and (max-width: 1238px) {
+  section.invision .invision-content div input {
+    margin-right: 0px;
+  }
+}
 section.invision .invision-content div input:focus {
   outline: none;
 }
@@ -556,6 +561,7 @@ section.invision .invision-content .first {
 }
 @media screen and (max-width: 1238px) {
   section.invision .invision-content .first {
+    margin-right: 0px;
     width: 290px;
     margin: 0 auto;
   }
